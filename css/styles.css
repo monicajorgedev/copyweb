@@ -1,0 +1,220 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Aqui mi codigo*/
+html, body {
+    font-family: Poppins;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+nav {
+    background-color: white;
+    margin-top: 10px;
+}
+
+.nav-up {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding: 0px 200px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.nav-nasa, .ul-nav {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.nav-down {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    padding: 20px;
+    
+}
+
+.logo {
+    width: 70px;
+    margin: 0px 20px;
+    display: flex;
+}
+.search {
+    width: 60%;
+}
+.form-search {
+    height: 100%;
+    display: flex;
+}
+.input-search {
+    background-color: #f2f2f2;
+    border: none;
+    width: 90%;
+    height: 100%;
+    padding-left: 15px;
+}
+
+.btn-search {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 8%;
+    height: 100%;
+}
+
+.sign-up {
+    background-color: white;
+    border: 1px solid lightgray;
+    margin: 0px 20px;
+    width: 6%;
+}
+
+.sign-in {
+    background-color: white;
+    border: none;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+}
+.section-up, .section-down{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 100px;
+    gap: 40px;
+    
+}
+.box-section-down {
+    background-color: white;
+}
+.box-section-up {
+    background-image: url("https://static-production.npmjs.com/abf53a31b2da4657a1a004ee9358551c.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.section-up h1 {
+    font-size: 100px;
+    font-weight: 500;
+}
+.section-up h2, .section-down h2 {
+    font-size: 50px;
+    font-weight: 500;
+    width: 80%;
+}
+.section-up p, .section-down p {
+    width: 70%;
+    display: flex;
+    align-self: center;
+    line-height: 30px;
+    
+}
+.section-sign {
+    display: flex;
+    gap: 20px;
+}
+
+.sign-free, .learn {
+    border-radius: 5cm;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-free {
+    background-color: #ffc329;
+    
+    
+}
+.learn {
+    background-color: #cb3837;
+    border: 1px solid white;
+}
+.learn a {
+    color: white;
+}
+.img-colors {
+    width: 130px;
+}
+
+
+footer {
+    background-color: white;
+    border-top: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    padding: 70px;
+    margin-bottom: 10px;
+}
+
+footer h3{
+    font-weight: bold;
+}
+footer div, li, h3 {
+    padding: 10px;
+}
+
+.div-start-end {
+    display: block;
+    height: 10px;
+    width: 100%;
+    background-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff);
+}
