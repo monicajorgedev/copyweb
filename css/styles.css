@@ -62,7 +62,7 @@ nav {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid lightgray;
-    padding: 0px 200px;
+    padding: 0px 100px;
 }
 a {
     color: black;
@@ -94,6 +94,9 @@ a {
 .form-search {
     height: 100%;
     display: flex;
+}
+.input-search img{
+    width: 12px;
 }
 .input-search {
     background-color: #f2f2f2;
@@ -201,8 +204,12 @@ footer {
     display: flex;
     justify-content: space-around;
     height: 200px;
-    padding: 70px;
+    padding: 50px;
     margin-bottom: 10px;
+}
+
+.logo-github img, .npm img{
+    width: 50px;
 }
 
 footer h3{
@@ -218,3 +225,21 @@ footer div, li, h3 {
     width: 100%;
     background-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff);
 }
+
+.bubble {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ff4b01;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+  .bubble img{
+    width: 25px;
+  }
